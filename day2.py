@@ -65,6 +65,5 @@ for game in rounds:
 
     score = move_score[user_move] + 1 + get_game_score(user_move, opp_move)
     scores.append(score)
-    print(user_move, opp_move, score)
 
 print(sum(scores))
