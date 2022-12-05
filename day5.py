@@ -42,7 +42,7 @@ for inst in instructions:
         origin=int_inst[1],
         quantity=int_inst[0],
         warehouse=crate_stacks,
-        super_stacker=True
+        super_stacker=True  # Set to False for Part 1
     )
 
 print("".join([x[0] for x in crate_stacks]))
